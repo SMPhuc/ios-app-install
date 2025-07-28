@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cài đặt ứng dụng iOS</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h2>Nhấn để cài đặt ứng dụng</h2>
-  <a href="itms-services://?action=download-manifest&url=https://smphuc.github.io/ios-app-install/manifest.plist">
-    👉 Cài đặt MyApp
-  </a>
+  <div class="container">
+    <img src="app-icon.png" alt="App Icon" class="icon" />
+    <h1 class="app-name">Tên Ứng Dụng</h1>
+    <p class="bundle-id">com.ten.ungdung</p>
+    <a class="install-btn" href="itms-services://?action=download-manifest&url=https://smphuc.github.io/ios-app-install/manifest.plist">
+      Cài đặt ứng dụng
+    </a>
+    <p class="note">Nhấn “Cài đặt” nếu được yêu cầu.</p>
+  </div>
 </body>
 </html>
